@@ -1,6 +1,5 @@
-
-<?php include('includes/header.php'); ?>
-
+<?php include_once('../private/initialize.php');?>
+<?php include(SHARED_PATH .'/header.php'); ?> 
   <div id="page-content">
     <h1>PHP Language Core</h1>
     <ul>
@@ -12,4 +11,4 @@
 
   </div>
 
-<?php include('includes/footer.php'); ?>
+<?php include(SHARED_PATH . '/footer.php'); ?>
