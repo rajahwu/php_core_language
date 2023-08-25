@@ -4,8 +4,12 @@
   <h1>PHP Language Core</h1>
   <ul>
     <li>
-      <a href="./basics/">Core</a>
+      <a href="./basics/">The Basics</a>
+      
+    </li>
+    <li>
 
+      <a href="./control_structures/">Control Structures</a>
     </li>
   </ul>
 

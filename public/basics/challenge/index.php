@@ -13,10 +13,10 @@
 <hr />
 
 <?php 
-    $msg = $name . ' went to go see ' . $movie . " ";
+    $msg = $name . ' went to go see ' . $movie . ' ';
     $msg .= 'with ' . $friend . ".";
     echo '<p>'. $msg . '</p>';
-    echo '<p>' . $name . ' got ' . $candy . ".";
+    echo '<p>' . $name . ' got ' . $candy . '.';
 
     ?>
 
