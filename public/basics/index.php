@@ -24,6 +24,10 @@
 <div id="page-content">
   <h1 id="top">The Basics</h1>
   <p>Learning PHP</p>
+  <div>
+    <a href="./challenge/">Challenge</a>
+    <a href="./quiz/">Quiz</a>
+  </div>
   <ol>
     <li><a href="#printing">Printing</a></li>
     <li><a href="#variables">Variables</a></li>
