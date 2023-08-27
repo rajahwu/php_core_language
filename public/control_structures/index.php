@@ -9,6 +9,7 @@
   <div>
     <a href="./challenge/">Challenge</a>
     <a href="./quiz/">Quiz</a>
+    <a href="./examples/">Examples</a>
   </div>
   <ol>
     <li><a href="#boolean_operators">Boolean Operators</a></li>
