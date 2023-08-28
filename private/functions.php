@@ -40,6 +40,20 @@ function is_get_request() {
     return $_SERVER['REQUEST_METHOD'] == 'GET';
 }
 
+function render_lesson_content($title) {
+    $content =  '<li>';
+    $content .= "<h2 id=\"$title\">$title</h2>";
+    $content .= '<p>';
+    $content .=  md("notes/$title.md");
+    $content .= '</p>';
+    $content .= '<a href=\"#top\">--top--</a>';
+    $content .= '<hr />';
+    $content .= '</li>';
+
+    echo $content;
+   }
+
+
 
 
 ?>

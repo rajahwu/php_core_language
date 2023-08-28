@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>PHP Core Language</title>
-    <!-- <link rel="stylesheet" media="all" href="../../public/assets/public.css" /> -->
-    <!-- <script src="../../public/assets/public.js"></script> -->
+    <link rel="stylesheet" media="all" href="../../public/assets/public.css" />
+    <script src="../../public/assets/public.js"></script>
   </head>
   <body>
     <div id="main">

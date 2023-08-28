@@ -4,21 +4,6 @@
       function parse_lesson_content_title($content_title) {
 
       }
-
-      function render_lesson_content($title_id, $title, $md_url) {
-       $content = "<li>";
-       $content .= "<h2 id=\" . $title_id .\">" . $title . "</h2>";
-       $content .= "<p>";
-       $content .=  md("notes/" . $md_url);
-       $content .= "</p>";
-       $content .= "<a href=\"#top\">--top--</a>";
-       $content .= "<hr />";
-       $content .=  "</li>";
-
-       echo $content;
-      }
-
-
 ?>
 
 <div id="page-content">
@@ -38,7 +23,7 @@
   <hr>
   <ul>
 
-   <?php echo render_lesson_content('how_it_works', 'How It Works', 'how_it_works.md'); ?>
+   <?php echo render_lesson_content('how_it_works'); ?>
 
     <li>
       <h2 id="printing">Printing</h2>

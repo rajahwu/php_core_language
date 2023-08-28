@@ -5,11 +5,15 @@
   <ul>
     <li>
       <a href="./basics/">The Basics</a>
-      
     </li>
     <li>
-
       <a href="./control_structures/">Control Structures</a>
+    </li>
+    <li>
+      <a href="./math_in_php/">Math In PHP</a>
+    </li>
+    <li>
+      <a href="./loops/">Loops</a>
     </li>
   </ul>
 
