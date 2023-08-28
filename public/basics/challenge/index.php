@@ -1,5 +1,4 @@
-<?php include_once('../../private/initialize.php'); ?>
-<?php      include(SHARED_PATH . '/header.php'); 
+<?php include_once('../../private/initialize.php'); 
     $name= "Teresa"; // Heading 1
     $city = "NYC";
     $movie = "Star Wars"; //Italics
