@@ -15,6 +15,9 @@
     <li>
       <a href="./loops/">Loops</a>
     </li>
+    <li>
+      <a href="./functions_objects/">Functions and Objects</a>
+    </li>
   </ul>
 
 </div>
