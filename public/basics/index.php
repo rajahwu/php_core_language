@@ -20,51 +20,14 @@
     <li><a href="#arrays">Arrays</a></li>
     <li><a href="#defining_arrays">Defining arrays</a></li>
   </ol>
-  <hr>
+  <hr />
   <ul>
-
-   <?php echo render_lesson_content('how_it_works'); ?>
-
-    <li>
-      <h2 id="printing">Printing</h2>
-      <p>
-        <?php echo md('notes/printing.md'); ?>
-      </p>
-      <a href="#top">--top--</a>
-      <hr />
-    </li>
-    <li>
-      <h2 id="variables">Variables</h2>
-      <p>
-        <?php echo md('notes/variables.md'); ?>
-      </p>
-      <a href="#top">--top--</a>
-      <hr />
-    </li>
-    <li>
-      <h2 id="quotes">Quotes</h2>
-      <p>
-        <?php echo md('notes/quotes.md'); ?>
-      </p>
-      <a href="#top">--top--</a>
-      <hr />
-    </li>
-    <li>
-      <h2 id="arrays">Arrays</h2>
-      <p>
-        <?php echo md('notes/arrays.md'); ?>
-      </p>
-      <a href="#top">--top--</a>
-      <hr />
-    </li>
-    <li>
-      <h2 id="defining_arrays">Defining Arrays</h2>
-      <p>
-        <?php echo md('notes/defining_arrays.md'); ?>
-      </p>
-      <a href="#top">--top--</a>
-      <hr />
-    </li>
+   <?php echo render_lesson_content('how_it_works');
+         echo render_lesson_content('printing'); 
+         echo render_lesson_content('variables'); 
+         echo render_lesson_content('quotes'); 
+         echo render_lesson_content('arrays'); 
+         echo render_lesson_content('defining_arrays'); ?>
   </ul>
 </div>
 
