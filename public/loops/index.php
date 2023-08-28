@@ -1,6 +1,7 @@
-<?php include_once('../../private/initialize.php'); ?>
-<?php      include(SHARED_PATH . '/header.php'); 
+<?php include_once('../../private/initialize.php'); 
+      include(SHARED_PATH . '/header.php');
 
+      $topics = array('loops', 'do_while_loops', 'for_loops', 'foreach_loops');
 ?>
 
 <div id="page-content">
@@ -12,11 +13,11 @@
     <a href="./examples/">Examples</a>
   </div>
   <ol>
-    <?php render_lesson_content('loops', true); ?>
+    <?php foreach($topics as $topic) { render_lesson_content($topic, true);} ?>
   </ol>
-  <hr>
+  <hr />
   <ul>
-    <?php render_lesson_content('loops'); ?>
+    <?php foreach($topics as $topic) { render_lesson_content($topic);} ?>
   </ul>
 </div>
 
