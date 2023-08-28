@@ -1,5 +1,6 @@
 <?php include_once('../../private/initialize.php'); 
-      include(SHARED_PATH . '/header.php'); 
+      include(SHARED_PATH . '/header.php');
+       
       $topics = array(
         'functions',
         'built-in_functions',
