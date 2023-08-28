@@ -2,8 +2,8 @@
       include(SHARED_PATH . '/header.php'); 
 ?>
 
-<div id="page-content">
-  <div>
+<div id="page-content" class="flex flex-col">
+  <div class="bg-red-200">
     <h1 id="top">The Basics</h1>
     <p>Learning PHP</p>
     <nav>
@@ -16,8 +16,8 @@
         </li>
       </ul>
     </nav>
-
   </div>
+<div class="bg-yellow-200">
   <ol>
     <?php
     render_lesson_content('printing', true);
@@ -27,9 +27,9 @@
     render_lesson_content('defining_arrays', true);
     ?>
   </ol>
-  <hr />
+</div>
+<div class="bg-blue-200">
   <ul>
-    
     <?php render_lesson_content('how_it_works');
           render_lesson_content('printing'); 
           render_lesson_content('variables'); 
@@ -38,6 +38,7 @@
           render_lesson_content('defining_arrays'); 
     ?>
   </ul>
+</div>
 </div>
 
 <?php include(SHARED_PATH . '/footer.php'); ?>

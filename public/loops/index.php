@@ -12,18 +12,11 @@
     <a href="./examples/">Examples</a>
   </div>
   <ol>
-    <li><a href="#note_title">Note Title</a></li>
+    <?php render_lesson_content('loops', true); ?>
   </ol>
   <hr>
   <ul>
-    <li>
-      <h2 id="note_title">Note Title</h2>
-      <p>
-        <?php echo md('notes/note.md'); ?>
-      </p>
-      <a href="#top">--top--</a>
-      <hr />
-    </li>
+    <?php render_lesson_content('loops'); ?>
   </ul>
 </div>
 
