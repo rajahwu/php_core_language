@@ -14,6 +14,6 @@ function math($a, $b = 2, $op = 'multiply' ) {
 }
 
 // named argument
-math(2, op: 'add');
+math(2, op: 'add', b: 5);
 
 ```
