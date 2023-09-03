@@ -2,22 +2,16 @@
       include(SHARED_PATH . '/header.php');
        
       $topics = array(
-        'functions',
-        'built-in_functions',
-        'custom_functions',
-        'union_typing_variables',
-        'arguments',
-        'anonymous_functions',
-        'objects_classes',
-        'defining_simple_class',
-        'using_simple_class'
+        'organizing_code',
+        'include_and_require',
+        'namespacing',
       )
 ?>
 
 <div id="page">
 
   <div id="title">
-    <h1 id="top">Functions and Objects</h1>
+    <h1 id="top">Including External Files</h1>
     <p>Learning PHP</p>
   </div>
 

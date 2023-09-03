@@ -18,6 +18,12 @@
     <li>
       <a href="./functions_objects/">Functions and Objects</a>
     </li>
+    <li>
+      <a href="./external_files/">Including External Files</a>
+    </li>
+    <li>
+      <a href="./forms/">Forms</a>
+    </li>
   </ul>
 
 </div>
